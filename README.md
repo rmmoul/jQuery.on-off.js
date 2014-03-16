@@ -5,7 +5,7 @@ Common jQuery \_on/\_off swap with automatic hover-state image preloader
 
 To use:
 	
-1. create you hover and non-hover state images, and save the hover
+1. create your hover and non-hover state images, and save the hover
 state image with \_off at the end of the file name before the 
 extension, and save the hover state with \_on at the end.
 
@@ -21,3 +21,14 @@ and take care of preloading the hover state images, and do the swap.
 Credits: I'm not sure who first shared the \_on/\_off method used,
 but I modified a preloader script from http://stackoverflow.com/a/7560247/901502
 to handle the auto loading of the hover state images.
+
+Examples:
+
+You've created apply_button_on.jpg and apply_button_off.jpg.
+
+applybutton_on.jpg is the hover state image
+applybutton_off.jpg is the normail, non-hover state image
+
+You would include the image in your html like this:
+
+    <img src="images/apply_button_off.jpg" class="rollover">
