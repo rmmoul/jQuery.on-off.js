@@ -27,6 +27,7 @@ Examples:
 You've created apply\_button\_on.jpg and apply\_button\_off.jpg.
 
 applybutton_on.jpg is the hover state image
+
 applybutton_off.jpg is the normail, non-hover state image
 
 You would include the image in your html like this:
