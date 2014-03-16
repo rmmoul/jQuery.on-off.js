@@ -24,7 +24,7 @@ to handle the auto loading of the hover state images.
 
 Examples:
 
-You've created apply_button_on.jpg and apply_button_off.jpg.
+You've created apply\_button\_on.jpg and apply\_button\_off.jpg.
 
 applybutton_on.jpg is the hover state image
 applybutton_off.jpg is the normail, non-hover state image
