@@ -1,4 +1,4 @@
-Jquery(document).ready(function($) {
+jQuery(document).ready(function($) {
 	//image hover magic
 	$('img.rollover').hover(
 		function() { this.src = this.src.replace('_off', '_on');},
@@ -10,7 +10,6 @@ Jquery(document).ready(function($) {
 	$('img.rollover').each(function(idx){
 		var i = new Image();
 		i.src = $(this).attr('src').replace('_off', '_on');
-		alert(i.src);
 		imgs.push(i);
 	});
 });
