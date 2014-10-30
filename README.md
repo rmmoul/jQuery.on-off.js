@@ -15,7 +15,7 @@ extension, and save the hover state with \_on at the end.
 
 This script requires jQuery to also be included 
 
-No need to call any this script, it will run after the page loads
+No need to call anything for this script, just include it will run after the page loads
 and take care of preloading the hover state images, and do the swap.
 
 Credits: I'm not sure who first shared the \_on/\_off method used,
